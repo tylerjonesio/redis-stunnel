@@ -57,6 +57,8 @@ docker run -d \
 
 To test the `stunnel` setup, run the following NodeJS script. It should print out `[]` (an empty list) if it is a clean Redis server, but would otherwise print out all the keys on the server.
 
+Before being able to run this script, `ioredis` needs to be installed with `npm`.
+
 ```js
 var fs = require('fs')
 var Redis = require('ioredis')
