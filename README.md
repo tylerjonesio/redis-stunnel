@@ -1,4 +1,3 @@
-
 # redis-stunnel
 
 Docker image for providing a TLS endpoint for accessing Redis.
