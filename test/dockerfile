@@ -1,1 +1,3 @@
 from ruby
+RUN cat ./index.js
+CMD sleep 1000
