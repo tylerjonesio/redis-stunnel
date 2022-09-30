@@ -1,7 +1,7 @@
-FROM ubuntu:14.04
-MAINTAINER Bryan Kendall <bryan@runnable.com>
+FROM ubuntu:20.04
+MAINTAINER Tyler
 
-EXPOSE 6380
+EXPOSE 6379
 
 RUN apt-get update && apt-get install -y stunnel4
 
